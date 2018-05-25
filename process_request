@@ -1,0 +1,8 @@
+request=[]
+
+if request['code´] == 'OKAY':
+     create_userCondition()
+     create_logOP()
+     
+if request['key'] == 00 :
+     redirect();
