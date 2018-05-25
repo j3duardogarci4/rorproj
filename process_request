@@ -1,8 +1,9 @@
-request=[]
 
-if request['code´] == 'OKAY':
+WHEN request['code']== 'OKAY':
      create_userCondition()
      create_logOP()
      
-if request['key'] == 00 :
+WHERN request['key'] == 00 :
      redirect();
+END
+
